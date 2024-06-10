@@ -8,6 +8,9 @@ set -e
 sudo apt update -y
 sudo apt install -y curl git unzip flatpak
 
+# Set hostname
+sudo hostnamectl set-hostname flamedfury
+
 # Ensure computer doesn't go to sleep or lock while installing
 gsettings set org.gnome.desktop.screensaver lock-enabled false
 gsettings set org.gnome.desktop.session idle-delay 0

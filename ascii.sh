@@ -8,15 +8,15 @@ ascii_art='
 ####     ### ###  ###  ##  ##   ##  ### ###  ### ##   ####      ## ##   #### ##    ##     
 '
 
-# Define the color gradient (shades of cyan and blue)
+# Define the color gradient (shades of red, orange, and yellow)
 colors=(
-	'\033[38;5;81m' # Cyan
-	'\033[38;5;75m' # Light Blue
-	'\033[38;5;69m' # Sky Blue
-	'\033[38;5;63m' # Dodger Blue
-	'\033[38;5;57m' # Deep Sky Blue
-	'\033[38;5;51m' # Cornflower Blue
-	'\033[38;5;45m' # Royal Blue
+    '\033[38;5;196m' # Red
+    '\033[38;5;202m' # OrangeRed
+    '\033[38;5;208m' # DarkOrange
+    '\033[38;5;214m' # Orange
+    '\033[38;5;220m' # Gold
+    '\033[38;5;226m' # Yellow
+    '\033[38;5;228m' # LightYellow
 )
 
 # Split the ASCII art into lines

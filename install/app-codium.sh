@@ -5,7 +5,7 @@ rm codium.deb
 cd -
 
 mkdir -p ~/.config/VSCodium/User
-cp ~/.local/share/omakub/configs/vscode.json ~/.config/VSCodium/User/settings.json
+cp ~/.local/share/omakub/configs/codium.json ~/.config/VSCodium/User/settings.json
 
 # Install default supported themes
 codium --install-extension arcticicestudio.nord-visual-studio-code
