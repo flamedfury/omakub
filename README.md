@@ -8,6 +8,8 @@ Watch the introduction video and read more at [omakub.org](https://omakub.org) f
 
 ## Install
 
+wget -qO- https://raw.githubusercontent.com/flamedfury/omakub/master/fury | bash
+
 Using `curl`
 ```bash
 curl -sL https://github.com/flamedfury/omakub/raw/master/install.sh | bash
