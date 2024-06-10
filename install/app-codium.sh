@@ -1,5 +1,5 @@
 cd ~/Downloads
-wget -O codium.deb 'https://github.com/VSCodium/vscodium/releases/latest/download/codium_1.76.0.0-1_amd64.deb'
+wget -O codium.deb 'https://github.com/VSCodium/vscodium/releases/download/1.90.0.24158/codium_1.90.0.24158_amd64.deb'
 sudo apt install -y ./codium.deb
 rm codium.deb
 cd -
