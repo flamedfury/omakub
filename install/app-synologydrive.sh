@@ -1,1 +1,1 @@
-flatpak install flathub com.synology.SynologyDrive -y
+flatpak install -y flathub com.synology.SynologyDrive

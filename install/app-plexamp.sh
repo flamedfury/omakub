@@ -1,1 +1,1 @@
-flatpak install flathub com.plexamp.Plexamp -y
+flatpak install -y flathub com.plexamp.Plexamp
