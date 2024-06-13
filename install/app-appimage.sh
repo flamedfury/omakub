@@ -1,3 +1,3 @@
 
 sudo add-apt-repository ppa:appimagelauncher-team/stable
-sudo apt install appimagelauncher
+sudo apt install -y appimagelauncher
