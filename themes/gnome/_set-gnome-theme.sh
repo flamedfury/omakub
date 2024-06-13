@@ -1,6 +1,6 @@
-gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
 gsettings set org.gnome.desktop.interface cursor-theme "Nordic-cursors"
-gsettings set org.gnome.desktop.interface gtk-theme "Pop-dark"
+gsettings set org.gnome.desktop.interface gtk-theme "Nordic"
 gsettings set org.gnome.desktop.interface icon-theme "Cosmic"
 
 BACKGROUND_ORG_PATH="$HOME/.local/share/omakub/backgrounds/$OMAKUB_THEME_BACKGROUND"
