@@ -1,5 +1,5 @@
 cd ~/Downloads
-sudo apt remove --purge firefox
+sudo apt remove --purge -y firefox
 wget -O firefox-developer.tar.bz2 "https://download.mozilla.org/?product=firefox-devedition-latest&os=linux64" --trust-server-names
 tar -xf firefox-developer.tar.bz2
 rm -rf firefox-developer.tar.bz2

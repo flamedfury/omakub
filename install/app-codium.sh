@@ -9,9 +9,3 @@ cp ~/.local/share/omakub/configs/codium.json ~/.config/VSCodium/User/settings.js
 
 # Install default supported themes
 codium --install-extension arcticicestudio.nord-visual-studio-code
-codium --install-extension enkia.tokyo-night
-
-# Install default extensions
-codium --install-extension bradlc.vscode-tailwindcss
-codium --install-extension eseom.nunjucks-template
-codium --install-extension ritwickdey.LiveServer
