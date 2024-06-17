@@ -16,5 +16,4 @@ elif [ "$FONT" == "meslo" ]; then
 fi
 
 gsettings set org.gnome.desktop.interface monospace-font-name "$NERD_FONT 12"
-# cp $OMAKUB_PATH/fonts/alacritty/$FONT.toml ~/.config/alacritty/font.toml
 sed -i "s/\"editor.fontFamily\": \".*\"/\"editor.fontFamily\": \"$NERD_FONT\"/g" ~/.config/VSCodium/User/settings.json
