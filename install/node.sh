@@ -7,4 +7,5 @@ sudo apt update
 sudo apt install -y mise
 
 #install Node
+mise install node@lts
 mise use --global node@lts
