@@ -13,5 +13,5 @@ gsettings set org.gnome.desktop.interface monospace-font-name 'Hack Nerd Font Mo
 gsettings set org.gnome.desktop.interface cursor-size 48
 
 # Set ALT+TAB to switch between windows instead of applications
-gsettings set org.gnome.shell.app-switcher current-workspace-only false
-gsettings set org.gnome.shell.app-switcher switch-windows true
+# gsettings set org.gnome.shell.app-switcher current-workspace-only false
+# gsettings set org.gnome.shell.app-switcher switch-windows true
